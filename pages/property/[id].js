@@ -26,21 +26,21 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
     </Box>
     <Box marginTop='2'>
       <Text fontSize='lg' marginBottom='2' fontWeight='bold'>{title}</Text>
-      <Text lineHeight='2' color='gray.600'>{description}</Text>
+      <Text lineHeight='2' color='white'>{description}</Text>
     </Box>
     <Flex flexWrap='wrap' textTransform='uppercase' justifyContent='space-between'>
       <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
         <Text>Type</Text>
-        <Text fontWeight='bold'>{type}</Text>
+        <Text fontWeight='bold' color='white'>{type}</Text>
       </Flex>
       <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3'>
         <Text>Purpose</Text>
-        <Text fontWeight='bold'>{purpose}</Text>
+        <Text fontWeight='bold' color='white'>{purpose}</Text>
       </Flex>
       {furnishingStatus && (
         <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3' >
           <Text>Furnishing Status</Text>
-          <Text fontWeight='bold'>{furnishingStatus}</Text>
+          <Text fontWeight='bold' color='white'>{furnishingStatus}</Text>
         </Flex>
       )}
     </Flex>

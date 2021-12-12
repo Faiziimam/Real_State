@@ -10,7 +10,13 @@ export default function Layout({ children }) {
       <Head>
         <title>Real Estate</title>
       </Head>
-      <Box maxWidth='1280px' m='auto'>
+      <Box
+        w={'full'}
+        // maxWidth="1280px"
+        m="auto"
+        bg={'#0d1117'}
+        color={'#c1c9d0'}
+      >
         <header>
           <Navbar />
         </header>
